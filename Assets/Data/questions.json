@@ -1,0 +1,21 @@
+{
+    "questions":
+    [
+      {
+        "title": "What is x in 2x+1",
+        "category": "Maths",
+        "answer": "2",
+        "answer1": "3",
+        "answer2": "4",
+        "answer3": "5"
+      },
+      {
+        "title": "Which nation is accepted to have started the second world war?",
+        "category": "History",
+        "answer": "Germany",
+        "answer1": "Poland",
+        "answer2": "USSR",
+        "answer3": "China"
+      }
+    ]
+  }
