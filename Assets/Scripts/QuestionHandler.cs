@@ -50,10 +50,10 @@ public class QuestionHandler : MonoBehaviour
 
     string GetQuestionsFromDatabase()
     {
-        string connstr = "Server = echstreme.de; Port = 3306; Database = c1LookSandbox; Uid = c1Look; Pwd = voTW29#c;SSL Mode =None";
+        string connstr = "This is a mySQL connection string. This is redacted for the github release for obvious reasons.";
         string x = "{\n\"questions\":\n[";
         string y = "{\n\"title\": \"Which nation is accepted to have started the second world war?\", \n\"category\": \"History\",\n\"answer\": \"Germany\",\n\"answer1\": \"Poland\",\n\"answer2\": \"USSR\",\n\"answer3\": \"China\"\n}\n]\n}";
-
+        // This is pre entered question which serves to be the final item added to the JSON. This is to prevent validation errors.
         MySqlConnection conn = new MySqlConnection(connstr);
         try
         {
