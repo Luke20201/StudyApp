@@ -29,7 +29,7 @@ public class SubmitQuestion : MonoBehaviour
         answer3 = answer3.Replace("\"", "'");
         answer4 = answer4.Replace("\"", "'");
 
-        MySqlConnection conn = new MySqlConnection("Server = echstreme.de; Port = 3306; Database = c1LookSandbox; Uid = c1Look; Pwd = voTW29#c;SSL Mode =None");
+        MySqlConnection conn = new MySqlConnection("This is a mySQL connection string. This is redacted for the github release for obvious reasons.");
         try
         {
             conn.Open();
